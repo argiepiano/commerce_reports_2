@@ -97,7 +97,7 @@ function commerce_reports_tax_views_data() {
     'title' => t('Taxable'),
     'help'  => t('The taxable amount on the order.'),
     'field' => array(
-      'handler'        => 'commerce_payment_handler_field_amount',
+      'handler'        => 'commerce_tax_reports_handler_field_amount',
       'click sortable' => TRUE,
     ),
     'sort'  => array(
@@ -109,7 +109,7 @@ function commerce_reports_tax_views_data() {
     'title' => t('Taxed'),
     'help'  => t('The taxed amount on the order.'),
     'field' => array(
-      'handler'        => 'commerce_payment_handler_field_amount',
+      'handler'        => 'commerce_tax_reports_handler_field_amount',
       'click sortable' => TRUE,
     ),
     'sort'  => array(

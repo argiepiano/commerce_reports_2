@@ -245,7 +245,7 @@ function commerce_reports_field_formatter_info() {
       'settings' => array(
         'calculation' => FALSE,
       ),
-    ),
+    ),  
   );
 }
 
